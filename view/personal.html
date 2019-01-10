@@ -41,7 +41,7 @@
 
 
                 $.ajax({
-                    url: 'http://localhost:3000/profile',
+                    url: 'http://10.30.29.61/1/index.php',
                     type: 'GET',
                     dataType: 'json',
                     xhrFields:{withCredentials:true},
@@ -52,7 +52,7 @@
 
                 $('#btnLogout').click(function () {
                     $.ajax({
-                        url: 'http://localhost:3000/logout',
+                        url: 'http://10.30.29.62:3000/logout',
                         type: 'GET',
                         contentType: 'application/json;charset=utf-8',
                         xhrFields:{withCredentials:true},
